@@ -1,0 +1,12 @@
+name: print-name
+
+on:
+ push:
+  branches:
+    - main
+jobs:
+  my-job:
+   runs-on: ubuntu-latest
+   steps:
+     - name: checkout
+       run: echo "successfully compeleted"
